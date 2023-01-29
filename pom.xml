@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
+<project		ect xmlns="http://maven.apache.org/POM/4.0.0"
 		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
@@ -75,7 +75,7 @@
 	</developers>
 
 	<properties>
-		<java.version>17</java.version>
+		<java.version>[1.7,1.9)</java.version>
 		<maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
 		<maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -466,3 +466,5 @@
    </reporting>
 
 </project>
+
+<!--Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 452, column 28>
