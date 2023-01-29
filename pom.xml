@@ -466,5 +466,3 @@
    </reporting>
 
 </project>
-
-<!--Reporting configuration should be done in <reporting> section, not in maven-site-plugin <configuration> as reportPlugins parameter. @ line 452, column 28>
